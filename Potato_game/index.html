@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotatoEmpire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Potato map</h1>
+    <section id="section1">
+        <table class="tileTable">
+            <tbody id="mainTable"></tbody>
+        </table>
+    </section>
+    <section id="section2">
+        <h2 id="currSeasonH"></h2>
+        <table>
+            <tbody id="missionTable">
+                <tr>
+                    <td>
+                        <div class="label">0</div>
+                    </td>
+                    <td>
+                        <div class="label">0</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">0</div>
+                    </td>
+                    <td>
+                        <div class="label">0</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="remSeasonH"></h2>
+        <table class="tileTable">
+            <label for="nextTile" id="lblNextTile"></label>
+            <tbody id ="nextTile">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="rotatebtn">Rotate</button>
+        <button id="mirrorbtn">Mirror</button>
+        <h2 id="gameEndMsg">The game has ended!</h2>
+        <h2 id="totalScore"></h2>
+        <table>
+            <tbody id="seasonTable">
+                <tr>
+                    <td>spring: 0</td>
+                    <td>summer: 0</td>
+                </tr>
+                <tr>
+                    <td>fall: 0</td>
+                    <td>winter: 0</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <button id="dark-mode">Dark mode</button>
+    <script src="game.js"></script>
+</body>
+</html>

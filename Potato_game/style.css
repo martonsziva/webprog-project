@@ -1,0 +1,127 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    /* background-color:rgb(75, 75, 75); */
+    background-color:rgba(253, 244, 175, 1);
+    color: #ffffff;
+}
+
+.tileTable {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#mainTable td {
+    background-color: #fdee48;
+    border-collapse: collapse;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 23px;
+    border: 1.5px solid #ffffff;
+    border-radius: 10px;
+}
+
+#nextTile td {
+    background-color: #fdee48;
+    border-collapse: collapse;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 23px;
+    border: 1.5px solid #ffffff;
+    border-radius: 10px;
+}
+
+#seasonTable {
+    color: black;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+#lblNextTile {
+    color: black;
+}
+
+#seasonTable td {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#lblNextTile {
+    text-align: center;
+    color: black;
+    background-color: #dccf75; 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+#missionTable td {
+    position: relative;
+    width: 303px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+h1, h2 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.label {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #d4bd60; 
+    background-color: #dccf75;
+    color: black; 
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+button:hover {
+    background-color: #d4bd60;
+    color: #000; 
+}
+
+@media screen and (min-width: 1300px) {
+    #section1 {
+        float: left;
+        width: 50%;
+    }
+    #section2 {
+        float: left;
+        width: 50%;
+    }
+}*/
+
+
+#totalScore {
+    display: none;
+}
+
+#gameEndMsg {
+    display: none;
+}
